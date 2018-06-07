@@ -1,10 +1,10 @@
 {% set provider= "NewRelic" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 {% set name = "terraform-provider-" + provider.lower() %}
 {% set x4_plugin = name + '_v' + version + "_x4" %}
 
-{% set sha256 = "2793e9cda6d5a5b3ce91ffe86ddf31b4d24fc072355487cbf5bd8203851ba7e8" %}
+{% set sha256 = "05199048ea30b69b0310117cc413a0a4ba080b5252eb8362d1e14823b28fdb37" %}
 {% set sha256_win32 = "7cff26a4107147115a5066947ef49813450999ce6948f5379fa18fac3745bbe5" %}
 {% set sha256_win64 = "6ba75e88936f6a37672f61a7c75beebd74405d5c5cf55a8fd7444831455e5c55" %}
 
