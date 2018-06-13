@@ -14,14 +14,16 @@ Summary: The Terraform NewRelic provider
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/terraform-provider-newrelic-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/terraform-provider-newrelic-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/terraform-provider-newrelic-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/terraform-provider-newrelic-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/terraform-provider-newrelic-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/terraform-provider-newrelic-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/terraform-provider-newrelic-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/terraform-provider-newrelic-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/terraform-provider-newrelic-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/terraform-provider-newrelic-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/terraform-provider-newrelic-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/terraform-provider-newrelic-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/terraform-provider-newrelic/badges/version.svg)](https://anaconda.org/conda-forge/terraform-provider-newrelic)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/terraform-provider-newrelic/badges/downloads.svg)](https://anaconda.org/conda-forge/terraform-provider-newrelic)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-terraform--provider--newrelic-green.svg)](https://anaconda.org/conda-forge/terraform-provider-newrelic) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/terraform-provider-newrelic.svg)](https://anaconda.org/conda-forge/terraform-provider-newrelic) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/terraform-provider-newrelic.svg)](https://anaconda.org/conda-forge/terraform-provider-newrelic) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/terraform-provider-newrelic.svg)](https://anaconda.org/conda-forge/terraform-provider-newrelic) |
 
 Installing terraform-provider-newrelic
 ======================================
