@@ -1,14 +1,11 @@
 {% set provider = "NewRelic" %}
+{% set version = "1.1.0" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
-{% set version = "1.0.1" %}
 
 {% set name = goname.split('/')[-1] %}
 {% set pkg_src = ('src/'+goname).replace("/",os.sep) %}
 
 {% set x4_plugin = name + '_v' + version + "_x4" + (".exe" if win else "")%}
-
-{% set sha256 = "05199048ea30b69b0310117cc413a0a4ba080b5252eb8362d1e14823b28fdb37" %}
-{% set sha256_win64 = "a4bb85e0287338c6a353457147d4e23745769f8823744d2468651b8858015e2d" %}
 
 package:
   name: {{ name|lower }}
@@ -17,11 +14,10 @@ package:
 source:
   - folder:  {{ pkg_src }}
     url: https://{{ goname }}/archive/v{{ version }}.tar.gz
-    sha256: {{ sha256 }}
-
+    sha256: c1ba1360d3923aebfc8f233fc6b1d44e993175a6f6bff1abab7737b9f4846e35
 
 build:
-  number: 1002
+  number: 1000
   script:
     - pushd {{ pkg_src }}
     - go build -v -o $GOBIN/{{ x4_plugin }} .  # [unix]
