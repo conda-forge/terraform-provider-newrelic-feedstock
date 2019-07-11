@@ -1,5 +1,5 @@
 {% set provider = "NewRelic" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
 
 {% set name = goname.split('/')[-1] %}
@@ -14,7 +14,7 @@ package:
 source:
   - folder:  {{ pkg_src }}
     url: https://{{ goname }}/archive/v{{ version }}.tar.gz
-    sha256: 12669e78ee71d2b7cf4509e26882aa3ff520e7586d323b8afd41d4b6e148ce00
+    sha256: 2a6bd14b50b44a750017f49f6a6d0ad2b0c6ccd6986a0407678fd7617b8a8004
 
 build:
   number: 0
